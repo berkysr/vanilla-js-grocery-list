@@ -1,0 +1,5 @@
+{
+    "jshint.exclude": {
+    },
+    "jshint.options": {"esversion": 6},
+}
