@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery List</title>
+    <!-- vector icons-->
+    <script src="https://kit.fontawesome.com/95a7214987.js" crossorigin="anonymous"></script>
 </head>
-<body>
 
+<body>
+    <section class="section-center">
+        <!-- form -->
+        <form action="" class="grocery-form">
+            <p class="alert"></p>
+            <h3>Grocery List</i></h3>
+            <div class="form-control">
+                <input type="text" id="grocery" placeholder="e.g. eggs">
+                <button type="submit" class="submit-btn">
+                    submit
+                </button>
+            </div>
+        </form>
+        <!-- list -->
+        <div class="grocery-container">
+            <div class="grocery-list">
+                <article class="grocery-item">
+                    <p class="title">item</p>
+                    <div class="btn-container">
+                        <button type="button" class="edit-btn">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                        <button type="button" class="delete-btn">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+            <!-- button -->
+            <button type="button" class="clear-btn">clear items</button>
+        </div>
+    </section>
 </body>
+
 </html>
